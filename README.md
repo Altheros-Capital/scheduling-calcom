@@ -23,3 +23,9 @@ docker-compose up
 
 - Frontend available at: http://localhost:3000
 - Database available at: http://localhost:5555
+
+
+## Initialize Webhook
+
+Use ngrok to podcast our local backend url: https://dashboard.ngrok.com/get-started/setup/windows  
+The final step is running `ngrok http http://localhost:8080` in a new terminal window, as stated on the ngrok website
