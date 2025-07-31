@@ -12,10 +12,10 @@ Calenda Repo for Altheros Capital
 
 ## Start the App
 
+We don't need to build because we are using the prebuilt image of cal.com.
 Use the following command from the root of the project:
 
 ```bash
-docker-compose build --no-cache
 docker-compose up
 ```
 
