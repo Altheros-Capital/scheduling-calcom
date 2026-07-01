@@ -11,7 +11,7 @@ networks:
 services:
   database:
     container_name: database
-    image: postgres
+    image: postgres:15-alpine
     restart: always
     environment:
       POSTGRES_USER: postgres
